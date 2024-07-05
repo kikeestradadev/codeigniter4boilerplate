@@ -1,0 +1,133 @@
+CRITICAL - 2024-06-11 17:21:09 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 17:21:32 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 18:51:19 --> ErrorException: Undefined property: App\Controllers\Products::$session
+[Method: GET, Route: products]
+in APPPATH/Controllers/Products.php on line 14.
+ 1 APPPATH/Controllers/Products.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$session', '/Applications/MAMP/htdocs/codeigniter4boilerplate/app/Controllers/Products.php', 14)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 18:52:05 --> ErrorException: Undefined property: App\Controllers\Products::$session
+[Method: GET, Route: products]
+in APPPATH/Controllers/Products.php on line 14.
+ 1 APPPATH/Controllers/Products.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$session', '/Applications/MAMP/htdocs/codeigniter4boilerplate/app/Controllers/Products.php', 14)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 19:00:46 --> ArgumentCountError: Too few arguments to function App\Controllers\Products::detailProduct(), 0 passed in /Applications/MAMP/htdocs/codeigniter4boilerplate/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: products/100]
+in APPPATH/Controllers/Products.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->detailProduct()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 19:01:37 --> ArgumentCountError: Too few arguments to function App\Controllers\Products::detailProduct(), 0 passed in /Applications/MAMP/htdocs/codeigniter4boilerplate/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: products/100]
+in APPPATH/Controllers/Products.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->detailProduct()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 19:02:05 --> ArgumentCountError: Too few arguments to function App\Controllers\Products::detailProduct(), 0 passed in /Applications/MAMP/htdocs/codeigniter4boilerplate/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: product]
+in APPPATH/Controllers/Products.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Products->detailProduct()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 19:34:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('home')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 19:37:18 --> ErrorException: include(modules/internal_module_1): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH/Views/pages/home.php on line 4.
+ 1 APPPATH/Views/pages/home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(modules/internal_module_1): Failed to open stream: No such file or directory', '/Applications/MAMP/htdocs/codeigniter4boilerplate/app/Views/pages/home.php', 4)
+ 2 APPPATH/Views/pages/home.php(4): include()
+ 3 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/codeigniter4boilerplate/app/Views/pages/home.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH/Controllers/Home.php(17): view('pages/home')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 19:38:09 --> ErrorException: include(modules/internal_module_1.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH/Views/pages/home.php on line 4.
+ 1 APPPATH/Views/pages/home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(modules/internal_module_1.php): Failed to open stream: No such file or directory', '/Applications/MAMP/htdocs/codeigniter4boilerplate/app/Views/pages/home.php', 4)
+ 2 APPPATH/Views/pages/home.php(4): include()
+ 3 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/codeigniter4boilerplate/app/Views/pages/home.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('pages/home', [], true)
+ 6 APPPATH/Controllers/Home.php(17): view('pages/home')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 20:19:04 --> ParseError: syntax error, unexpected token "echo"
+[Method: GET, Route: /]
+in APPPATH/Views/layouts/layout.php on line 17.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/layout', [], true)
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('pages/home', [], true)
+ 4 APPPATH/Controllers/Home.php(17): view('pages/home')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 20:21:35 --> ParseError: syntax error, unexpected double-quoted string "", expecting "," or ";"
+[Method: GET, Route: /]
+in APPPATH/Views/layouts/layout.php on line 17.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layouts/layout', [], true)
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('pages/home', [], true)
+ 4 APPPATH/Controllers/Home.php(17): view('pages/home')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

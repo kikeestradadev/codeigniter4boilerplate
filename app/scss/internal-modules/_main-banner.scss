@@ -1,0 +1,61 @@
+.main-banner{
+	
+	// background-color: red;
+	position: relative;
+	&__sticky-logo{
+		position: absolute;
+		right: 30px;
+		top: 0;
+	}
+
+	&__container{
+		background-color: #233de5;
+		display: flex;
+		position: relative;
+		}
+	
+	&__container-item{
+		// border: 1px solid white;
+	}
+	&__container-item:nth-child(1){
+		width: 100%;
+		@include from(l){
+			flex-basis: 960px;
+			flex-grow: 0;
+		}
+	}
+	&__container-item:nth-child(2){
+		border: 1px solid white;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		width: 100%;
+		max-width: 988px;
+		padding: 0 15px;
+		@include from(lg){
+			position: absolute;
+			right: 50%;
+			top: 50%;
+			transform: translate(-300px,-50%);
+		}
+	}
+	&__video-dk{
+		display: none;
+		width: 100%;
+		height: auto;
+		@include from(l){
+			display: block;
+		}
+	}
+	&__video-mb{
+		width: 100%;
+		height: auto;
+		
+		margin: 0 auto;
+		@include from(l){
+			display: none;
+		}
+	}
+	
+}

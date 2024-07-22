@@ -20,7 +20,8 @@
 		<link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
-    <link rel="stylesheet" href="<?= base_url('styles.css') ?>">
+
+    <link rel="stylesheet" href="styles.css" type="text/css" />
     <title>Title | Page</title>
   </head>
   <body class="class-name" itemscope itemtype="http://schema.org/WebPage">
@@ -32,6 +33,6 @@
         <footer class="main-footer"></footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="<?= base_url('index-dist.js') ?>"></script>
+    <script src="index-dist.js"></script>
   </body>
 </html>
